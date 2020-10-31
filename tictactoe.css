@@ -1,0 +1,75 @@
+body {
+  background-image: linear-gradient(
+    236deg,
+    rgb(64, 64, 206),
+    rgb(74, 132, 151)
+  );
+  display: flex;
+  flex-direction: column;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 90vw;
+}
+
+.title {
+  font-size: 60px;
+  margin: 0;
+}
+
+.message {
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+table {
+  border-collapse: collapse;
+  box-shadow: black 2px 4px 4px;
+  cursor: pointer;
+  margin: 40px;
+}
+
+tr {
+  height: 100px;
+}
+
+td {
+  width: 100px;
+  border: black 3px solid;
+  text-align: center;
+  background-color: rgb(125, 184, 204);
+  font-size: 50px;
+}
+
+button {
+  background-color: rgb(125, 184, 204);
+  border: black 3px solid;
+  border-radius: 5px;
+  box-shadow: black 2px 4px 4px;
+  cursor: pointer;
+  font-size: 30px;
+  margin: 10px;
+  outline: none;
+  padding: 5px;
+  text-align: center;
+}
+
+.clicked {
+  transform: translateY(2px);
+}
+
+.signature {
+  font-size: 20px;
+}
+
+.link {
+  color: black;
+  text-decoration: underline;
+}
